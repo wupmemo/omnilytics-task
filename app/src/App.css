@@ -26,14 +26,19 @@
 
 .App-button {
   width: 200px;
-  height: 50px;
-  background-color: #23cdfc;
+  height: 40px;
+  background-color: #6d9cfa;
   font-size: 18px;
-  margin: 10px 10px;
+  color: white;
 }
 
 .App-label {
   margin: 10px;
-  color:red;
+  color:rgb(35, 134, 180);
+  display: block;
+}
+
+.App-labels {
+  margin: 20px;
 }
 

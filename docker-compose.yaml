@@ -1,0 +1,15 @@
+# Compose config file for 2 services (App and backend)
+version: '3'
+
+services:
+  app:
+    build:
+      context: ./app
+    ports:
+      - "3000:3000"
+
+  backend:
+    build: 
+      context: ./backend
+    ports:
+      - "5000:5000"

@@ -1,0 +1,11 @@
+{
+  "randomObjects": [
+    {
+      "link": "https://api.github.com/users/hacktivist123",
+      "string": "Memo IS cool",
+      "integer":  "70",
+      "alpha_numric": "23",
+      "num":  "40"
+    }
+  ]
+}

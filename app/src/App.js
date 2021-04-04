@@ -1,13 +1,15 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+
+
 
 function App() {
   //TODO: should be passed as props to custom built label component
-  let alphabetical = 50;
-  let real_num = 40;
+  let alphabeticalString = 50;
+  let realNum = 40;
   let integres = 70;
-  let alphanumeric = 23;
-  let applink = "https://link-to-the-thing"
+  let alphaNumerics = 23;
+  let appLink = "https://link-to-the-thing"
 
   return (
     <div className="App">
@@ -18,32 +20,32 @@ function App() {
         Generate
       </button>
       <br /><br />
-      <span>Link: <a
+      <span className="App-label">Link: <a
           className="App-link"
-          href={applink}
+          href={appLink}
           target="_blank"
-          rel="noopener noreferrer"
-        >
-          {applink}
+          rel="noopener noreferrer">
+          {appLink}
         </a></span>
         <br /><br />
         <button
           className="App-button">
           Report
         </button>
-        <br /><br /><br /><br />
-        <label className="App-label">
-          Alphabetical String: <b>{alphabetical}</b>
-        </label><br /><br />
-        <label className="App-label">
-          Real numbers: <b>{real_num}</b>
-        </label><br /><br />
-        <label className="App-label">
-          Integres: <b>{integres}</b>
-        </label><br /><br />
-        <label className="App-label">
-          Alphanumerics: <b>{alphanumeric}</b>
-        </label><br /><br />
+        <div className="App-labels">
+          <label className="App-label">
+            Alphabetical String: <b>{alphabeticalString}</b>
+          </label>
+          <label className="App-label">
+            Real numbers: <b>{realNum}</b>
+          </label>
+          <label className="App-label">
+            Integres: <b>{integres}</b>
+          </label>
+          <label className="App-label">
+            Alphanumerics: <b>{alphaNumerics}</b>
+          </label>
+        </div>
     </div>
   );
 }
