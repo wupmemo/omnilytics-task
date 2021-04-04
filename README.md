@@ -15,3 +15,9 @@ nmarcysfa900jkifh  , 3.781, 2.11, ....
 Note: The backend API must be written using Flask (Python) or Express frameworks. All the communication between frontend and backend MUST be done via these APIs only.
 
 Note: Upload the project in Github and share the link with us.
+
+# How to run this ?
+```
+docker-compose up --build
+```
+is all you need to run.
